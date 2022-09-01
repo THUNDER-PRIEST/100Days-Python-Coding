@@ -1,0 +1,42 @@
+#python reads both "" and '' equally
+print("Hello World")
+print("this is '1'")
+print('this is "1"')
+print("this is "1"") - error
+
+#printing new lines using single print and \n 
+print("hello world")
+print("hello world")
+print("hello world")
+print("hello world\nhello world\nhello world")
+
+#concatenation of string
+print("hello" + "sai") - hellosai
+print("hello" + " " + "sai") - hello sai
+
+#there should be no space on beginning of code which can lead to indentation.
+
+#input from user
+input("what is your name ?")
+print("hello " + input("what is your name ?"))
+
+#number of character in string use len()
+a = input("Enter your name ?")
+print(len(a))
+print(len(input("Enter your name ?")))
+
+#variables
+name = input("Enter name ?")
+print(name)
+
+#same variable can be used to store different values but only the latest value can be accessed.
+#name variables to make sure its readable,understandable and dont use built-in functions.
+
+
+#PROJECT : 
+#Team name generator
+#Here we bascially take city name and pet name and concat it.
+print("!Team Name Generator!")
+city = input("Enter the city you were born :")
+pet = input("Enter your first pet name :")
+print("your Team name is " + city + " " + pet)
